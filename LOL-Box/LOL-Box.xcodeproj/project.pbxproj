@@ -25,7 +25,6 @@
 		041FEA981C7BF43B003174F0 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FE9E31C7BF43B003174F0 /* UIView+Toast.m */; };
 		041FEA991C7BF43B003174F0 /* ZJPBaseHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FE9E51C7BF43B003174F0 /* ZJPBaseHttpTool.m */; };
 		041FEA9A1C7BF43B003174F0 /* ZJPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FE9E71C7BF43B003174F0 /* ZJPNavigationController.m */; };
-		041FEA9B1C7BF43B003174F0 /* PKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FE9EA1C7BF43B003174F0 /* PKBaseViewController.m */; };
 		041FEA9C1C7BF43B003174F0 /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FE9EE1C7BF43B003174F0 /* AFDownloadRequestOperation.m */; };
 		041FEA9D1C7BF43B003174F0 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FE9F01C7BF43B003174F0 /* AFHTTPRequestOperation.m */; };
 		041FEA9E1C7BF43B003174F0 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FE9F21C7BF43B003174F0 /* AFHTTPRequestOperationManager.m */; };
@@ -97,6 +96,12 @@
 		041FEAE01C7BF43B003174F0 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FEA8A1C7BF43B003174F0 /* UIImageView+HighlightedWebCache.m */; };
 		041FEAE11C7BF43B003174F0 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FEA8C1C7BF43B003174F0 /* UIImageView+WebCache.m */; };
 		041FEAE21C7BF43B003174F0 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FEA8E1C7BF43B003174F0 /* UIView+WebCacheOperation.m */; };
+		041FEAEF1C7C05DF003174F0 /* LOLBoxBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FEAEE1C7C05DF003174F0 /* LOLBoxBaseViewController.m */; };
+		041FEAF61C7C0A82003174F0 /* LOLBoxTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FEAF51C7C0A82003174F0 /* LOLBoxTabBarViewController.m */; };
+		041FEAFC1C7C0D56003174F0 /* LOLBoxFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FEAFB1C7C0D56003174F0 /* LOLBoxFriendViewController.m */; };
+		041FEAFF1C7C0DC1003174F0 /* LOLBoxDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FEAFE1C7C0DC1003174F0 /* LOLBoxDiscoveryViewController.m */; };
+		041FEB021C7C0DDA003174F0 /* LOLBoxMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FEB011C7C0DDA003174F0 /* LOLBoxMeViewController.m */; };
+		041FEB051C7C31D2003174F0 /* LOLBoxInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FEB041C7C31D2003174F0 /* LOLBoxInformationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,8 +158,6 @@
 		041FE9E51C7BF43B003174F0 /* ZJPBaseHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPBaseHttpTool.m; sourceTree = "<group>"; };
 		041FE9E61C7BF43B003174F0 /* ZJPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPNavigationController.h; sourceTree = "<group>"; };
 		041FE9E71C7BF43B003174F0 /* ZJPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPNavigationController.m; sourceTree = "<group>"; };
-		041FE9E91C7BF43B003174F0 /* PKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKBaseViewController.h; sourceTree = "<group>"; };
-		041FE9EA1C7BF43B003174F0 /* PKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKBaseViewController.m; sourceTree = "<group>"; };
 		041FE9ED1C7BF43B003174F0 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownloadRequestOperation.h; sourceTree = "<group>"; };
 		041FE9EE1C7BF43B003174F0 /* AFDownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownloadRequestOperation.m; sourceTree = "<group>"; };
 		041FE9EF1C7BF43B003174F0 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -306,6 +309,18 @@
 		041FEA8D1C7BF43B003174F0 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		041FEA8E1C7BF43B003174F0 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		041FEA8F1C7BF43B003174F0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		041FEAED1C7C05DF003174F0 /* LOLBoxBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOLBoxBaseViewController.h; path = "LOL-Box/基类/LOLBoxBaseViewController.h"; sourceTree = SOURCE_ROOT; };
+		041FEAEE1C7C05DF003174F0 /* LOLBoxBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOLBoxBaseViewController.m; path = "LOL-Box/基类/LOLBoxBaseViewController.m"; sourceTree = SOURCE_ROOT; };
+		041FEAF41C7C0A82003174F0 /* LOLBoxTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOLBoxTabBarViewController.h; path = "标签栏/LOLBoxTabBarViewController.h"; sourceTree = "<group>"; };
+		041FEAF51C7C0A82003174F0 /* LOLBoxTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOLBoxTabBarViewController.m; path = "标签栏/LOLBoxTabBarViewController.m"; sourceTree = "<group>"; };
+		041FEAFA1C7C0D56003174F0 /* LOLBoxFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOLBoxFriendViewController.h; path = "好友/LOLBoxFriendViewController.h"; sourceTree = "<group>"; };
+		041FEAFB1C7C0D56003174F0 /* LOLBoxFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOLBoxFriendViewController.m; path = "好友/LOLBoxFriendViewController.m"; sourceTree = "<group>"; };
+		041FEAFD1C7C0DC1003174F0 /* LOLBoxDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOLBoxDiscoveryViewController.h; path = "发现/LOLBoxDiscoveryViewController.h"; sourceTree = "<group>"; };
+		041FEAFE1C7C0DC1003174F0 /* LOLBoxDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOLBoxDiscoveryViewController.m; path = "发现/LOLBoxDiscoveryViewController.m"; sourceTree = "<group>"; };
+		041FEB001C7C0DDA003174F0 /* LOLBoxMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOLBoxMeViewController.h; path = "我/LOLBoxMeViewController.h"; sourceTree = "<group>"; };
+		041FEB011C7C0DDA003174F0 /* LOLBoxMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOLBoxMeViewController.m; path = "我/LOLBoxMeViewController.m"; sourceTree = "<group>"; };
+		041FEB031C7C31D2003174F0 /* LOLBoxInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOLBoxInformationViewController.h; path = "资讯/LOLBoxInformationViewController.h"; sourceTree = "<group>"; };
+		041FEB041C7C31D2003174F0 /* LOLBoxInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOLBoxInformationViewController.m; path = "资讯/LOLBoxInformationViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,8 +374,13 @@
 				041FE9A11C7BF020003174F0 /* AppDelegate.h */,
 				041FE9A21C7BF020003174F0 /* AppDelegate.m */,
 				041FEA8F1C7BF43B003174F0 /* PrefixHeader.pch */,
+				041FEAF31C7C0A2F003174F0 /* 标签栏 */,
+				041FEAE31C7C040F003174F0 /* 资讯 */,
+				041FEAF71C7C0CB8003174F0 /* 好友 */,
+				041FEAF81C7C0D00003174F0 /* 发现 */,
+				041FEAF91C7C0D0D003174F0 /* 我 */,
+				041FEAEC1C7C056E003174F0 /* 基类 */,
 				041FE9D11C7BF43B003174F0 /* 工具类 */,
-				041FE9E81C7BF43B003174F0 /* 基类 */,
 				041FE9EB1C7BF43B003174F0 /* 开源库 */,
 				041FE9A71C7BF020003174F0 /* Main.storyboard */,
 				041FE9AA1C7BF020003174F0 /* Assets.xcassets */,
@@ -424,15 +444,6 @@
 				041FE9E71C7BF43B003174F0 /* ZJPNavigationController.m */,
 			);
 			path = "工具类";
-			sourceTree = "<group>";
-		};
-		041FE9E81C7BF43B003174F0 /* 基类 */ = {
-			isa = PBXGroup;
-			children = (
-				041FE9E91C7BF43B003174F0 /* PKBaseViewController.h */,
-				041FE9EA1C7BF43B003174F0 /* PKBaseViewController.m */,
-			);
-			path = "基类";
 			sourceTree = "<group>";
 		};
 		041FE9EB1C7BF43B003174F0 /* 开源库 */ = {
@@ -696,6 +707,69 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		041FEAE31C7C040F003174F0 /* 资讯 */ = {
+			isa = PBXGroup;
+			children = (
+				041FEB031C7C31D2003174F0 /* LOLBoxInformationViewController.h */,
+				041FEB041C7C31D2003174F0 /* LOLBoxInformationViewController.m */,
+				041FEAE41C7C042A003174F0 /* 最新 */,
+			);
+			name = "资讯";
+			sourceTree = "<group>";
+		};
+		041FEAE41C7C042A003174F0 /* 最新 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "最新";
+			sourceTree = "<group>";
+		};
+		041FEAEC1C7C056E003174F0 /* 基类 */ = {
+			isa = PBXGroup;
+			children = (
+				041FEAED1C7C05DF003174F0 /* LOLBoxBaseViewController.h */,
+				041FEAEE1C7C05DF003174F0 /* LOLBoxBaseViewController.m */,
+			);
+			name = "基类";
+			path = "工具类";
+			sourceTree = "<group>";
+		};
+		041FEAF31C7C0A2F003174F0 /* 标签栏 */ = {
+			isa = PBXGroup;
+			children = (
+				041FEAF41C7C0A82003174F0 /* LOLBoxTabBarViewController.h */,
+				041FEAF51C7C0A82003174F0 /* LOLBoxTabBarViewController.m */,
+			);
+			name = "标签栏";
+			sourceTree = "<group>";
+		};
+		041FEAF71C7C0CB8003174F0 /* 好友 */ = {
+			isa = PBXGroup;
+			children = (
+				041FEAFA1C7C0D56003174F0 /* LOLBoxFriendViewController.h */,
+				041FEAFB1C7C0D56003174F0 /* LOLBoxFriendViewController.m */,
+			);
+			name = "好友";
+			sourceTree = "<group>";
+		};
+		041FEAF81C7C0D00003174F0 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				041FEAFD1C7C0DC1003174F0 /* LOLBoxDiscoveryViewController.h */,
+				041FEAFE1C7C0DC1003174F0 /* LOLBoxDiscoveryViewController.m */,
+			);
+			name = "发现";
+			sourceTree = "<group>";
+		};
+		041FEAF91C7C0D0D003174F0 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				041FEB001C7C0DDA003174F0 /* LOLBoxMeViewController.h */,
+				041FEB011C7C0DDA003174F0 /* LOLBoxMeViewController.m */,
+			);
+			name = "我";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -839,12 +913,13 @@
 				041FEADB1C7BF43B003174F0 /* SDWebImagePrefetcher.m in Sources */,
 				041FEAB61C7BF43B003174F0 /* View+MASAdditions.m in Sources */,
 				041FEAA91C7BF43B003174F0 /* UIButton+AFNetworking.m in Sources */,
+				041FEAFC1C7C0D56003174F0 /* LOLBoxFriendViewController.m in Sources */,
+				041FEAF61C7C0A82003174F0 /* LOLBoxTabBarViewController.m in Sources */,
 				041FEACD1C7BF43B003174F0 /* UIScrollView+MJExtension.m in Sources */,
 				041FEAC01C7BF43B003174F0 /* MJRefreshBackNormalFooter.m in Sources */,
 				041FEAD81C7BF43B003174F0 /* SDWebImageDownloader.m in Sources */,
 				041FEAC71C7BF43B003174F0 /* MJChiBaoZiHeader.m in Sources */,
 				041FEAB31C7BF43B003174F0 /* MASViewConstraint.m in Sources */,
-				041FEA9B1C7BF43B003174F0 /* PKBaseViewController.m in Sources */,
 				041FEAAD1C7BF43B003174F0 /* UIWebView+AFNetworking.m in Sources */,
 				041FEAE11C7BF43B003174F0 /* UIImageView+WebCache.m in Sources */,
 				041FEAAB1C7BF43B003174F0 /* UIProgressView+AFNetworking.m in Sources */,
@@ -871,6 +946,8 @@
 				041FEAB81C7BF43B003174F0 /* MJRefreshBackFooter.m in Sources */,
 				041FEAD21C7BF43B003174F0 /* UIViewController+RESideMenu.m in Sources */,
 				041FEAAE1C7BF43B003174F0 /* MASCompositeConstraint.m in Sources */,
+				041FEB021C7C0DDA003174F0 /* LOLBoxMeViewController.m in Sources */,
+				041FEAEF1C7C05DF003174F0 /* LOLBoxBaseViewController.m in Sources */,
 				041FEAD51C7BF43B003174F0 /* SDImageCache.m in Sources */,
 				041FEAB71C7BF43B003174F0 /* MJRefreshAutoFooter.m in Sources */,
 				041FEAC11C7BF43B003174F0 /* MJRefreshBackStateFooter.m in Sources */,
@@ -882,6 +959,7 @@
 				041FEAE21C7BF43B003174F0 /* UIView+WebCacheOperation.m in Sources */,
 				041FE9A31C7BF020003174F0 /* AppDelegate.m in Sources */,
 				041FEAB91C7BF43B003174F0 /* MJRefreshComponent.m in Sources */,
+				041FEAFF1C7C0DC1003174F0 /* LOLBoxDiscoveryViewController.m in Sources */,
 				041FEA941C7BF43B003174F0 /* UIColor+Extension.m in Sources */,
 				041FEAB01C7BF43B003174F0 /* MASConstraintMaker.m in Sources */,
 				041FEACE1C7BF43B003174F0 /* UIScrollView+MJRefresh.m in Sources */,
@@ -909,6 +987,7 @@
 				041FEADD1C7BF43B003174F0 /* UIImage+GIF.m in Sources */,
 				041FEACF1C7BF43B003174F0 /* UIView+MJExtension.m in Sources */,
 				041FEAA41C7BF43B003174F0 /* AFURLResponseSerialization.m in Sources */,
+				041FEB051C7C31D2003174F0 /* LOLBoxInformationViewController.m in Sources */,
 				041FEAAF1C7BF43B003174F0 /* MASConstraint.m in Sources */,
 				041FEAA61C7BF43B003174F0 /* AFNetworkActivityIndicatorManager.m in Sources */,
 			);
@@ -1051,10 +1130,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/LOLBox/LOL-Box/LOL-Box/PrefixHeader.pch";
 				INFOPLIST_FILE = "LOL-Box/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.he.LOL-Box";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1062,10 +1144,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/LOLBox/LOL-Box/LOL-Box/PrefixHeader.pch";
 				INFOPLIST_FILE = "LOL-Box/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.he.LOL-Box";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1136,6 +1221,7 @@
 				041FE9CA1C7BF020003174F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041FE9CB1C7BF020003174F0 /* Build configuration list for PBXNativeTarget "LOL-BoxTests" */ = {
 			isa = XCConfigurationList;
@@ -1144,6 +1230,7 @@
 				041FE9CD1C7BF020003174F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041FE9CE1C7BF020003174F0 /* Build configuration list for PBXNativeTarget "LOL-BoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -1152,6 +1239,7 @@
 				041FE9D01C7BF020003174F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

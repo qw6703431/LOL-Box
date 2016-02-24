@@ -1,9 +1,9 @@
 //
-//  PKBaseViewController.h
-//  iOSPianKe
+//  LOLBoxBaseViewController.h
+//  LOL-Box
 //
-//  Created by 赵金鹏 on 16/1/14.
-//  Copyright © 2016年 赵金鹏. All rights reserved.
+//  Created by ma c on 16/2/23.
+//  Copyright © 2016年 HE. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -20,7 +20,7 @@
 typedef void(^HttpSuccessBlock)(id JSON);
 typedef void(^HttpErrorBlock)(NSError *error);
 
-@interface PKBaseViewController : UIViewController
+@interface LOLBoxBaseViewController : UIViewController
 
 @property (copy, nonatomic)             HttpSuccessBlock successBlock;
 @property (copy, nonatomic)             HttpErrorBlock errorBlock;
@@ -37,4 +37,5 @@ typedef void(^HttpErrorBlock)(NSError *error);
              errorBlock:(HttpErrorBlock)RequestError;
 
 - (void)AddBackItemBtn;
+
 @end
